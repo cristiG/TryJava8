@@ -1,9 +1,5 @@
 package javafxintro;
 
-/*
- * Copyright (c) Visma Software
- * 
- */
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
@@ -22,6 +18,7 @@ public class MyController implements Initializable {
     private TextField username;
     @FXML
     private TextField password;
+
     /**
      * Initializes the controller class.
      */
