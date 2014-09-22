@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml/1"
+           hgap="15" vgap="20"  fx:controller="javafxintro.MyController">
+    <padding>
+        <Insets bottom="10.0" top="10.0" left="10.0" right="10.0" />
+    </padding>
+    
+    <children>
+        <Label text="U:" GridPane.columnIndex="0" GridPane.rowIndex="0"   GridPane.halignment="RIGHT"/> 
+        <TextField fx:id="username" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+        <Label text="P:" GridPane.columnIndex="0" GridPane.rowIndex="1"   GridPane.halignment="RIGHT"/> 
+        <TextField fx:id="password" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        
+        <HBox GridPane.columnIndex="0" GridPane.rowIndex="2"  GridPane.columnSpan="2" alignment="CENTER" spacing="10">    
+            <children>
+                <Button text="k" onAction="#okAction" />
+                 <Button text="x" onAction="#cancelAction" />
+            </children>
+        </HBox>
+        
+    </children>
+</GridPane>
